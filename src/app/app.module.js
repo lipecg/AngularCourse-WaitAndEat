@@ -3,13 +3,15 @@
     
     angular
     .module('app', [
-        // Angular modules.
+        // Angular modules
         'ngRoute',
     
-        // Thirt-party modules.
+        // Thirt-party modules
         'firebase',
         
-        // Custom modules.
+        // Custom modules
+        'app.auth',
+        'app.core',
         'app.landing',
         'app.waitList'
     ]);
